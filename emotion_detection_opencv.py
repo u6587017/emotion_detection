@@ -16,7 +16,7 @@ class_names = ['Angry', 'Disgusted', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutra
 face_cascade = cv2.CascadeClassifier('detect/haarcascade_frontalface_default.xml')
 
 # Open a connection to the webcam (0 is usually the default camera)
-cap = cv2.VideoCapture("VIDEO.mp4")
+cap = cv2.VideoCapture("trump_test.mp4")
 # player = MediaPlayer("PREMIUM.NO.ADS.mp4")
 
 while True:
