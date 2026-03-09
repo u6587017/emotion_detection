@@ -14,7 +14,9 @@ This project implements a computer vision pipeline that detects human faces in a
 Parameters:
 steps_per_epoch=10, 
 epochs=30,
-EarlyStopping (patience=5)
+EarlyStopping (patience=5),
+optimizer='adam',
+loss= categorical_crossentropy , metrics=['accuracy'] 
 <br />
 
 ## Example training images:
@@ -23,11 +25,13 @@ EarlyStopping (patience=5)
 
 
 ### Accuracy:
+Blue: accuracy, Red:val_accuracy
 <br />
 <img width="378" height="264" alt="acc" src="https://github.com/user-attachments/assets/f335d1d2-a230-454c-b225-a292fe157515" />
 <br />
 
 ### Validation:
+Blue: loss, Red:val_loss
 <br />
 <img width="378" height="264" alt="loss" src="https://github.com/user-attachments/assets/156e3d1c-566a-4c26-8824-3a1a33ad5097" />
 
