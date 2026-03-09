@@ -15,6 +15,7 @@ Parameters:
 steps_per_epoch=10, 
 epochs=30,
 EarlyStopping (patience=5)
+<br />
 ## Example training data:
 <img width="257" height="264" alt="example_input" src="https://github.com/user-attachments/assets/e0072786-b5be-49a4-9196-53916d51922a" />
 <br />
