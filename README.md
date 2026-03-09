@@ -4,14 +4,20 @@ Tools:
 - OpenCV: Used for video stream handling, image preprocessing, and face detection (typically via Haar Cascades or DNN modules).
 - Keras/MobileNet: A lightweight Deep Learning architecture used to classify detected faces into specific emotion categories (e.g., Happy, Sad, Angry, Neutral).
 <br />
+
 Example training data:
 <img width="257" height="264" alt="example_input" src="https://github.com/user-attachments/assets/e0072786-b5be-49a4-9196-53916d51922a" />
+
 <br />
+
 <img width="257" height="264" alt="example_input2" src="https://github.com/user-attachments/assets/cbe3eac2-0a9c-4e02-9dfc-8a79ea8b2db9" />
+
 <br />
 Accuracy:
+
 <img width="378" height="264" alt="acc" src="https://github.com/user-attachments/assets/f335d1d2-a230-454c-b225-a292fe157515" />
 <br />
+
 Validation:
 <img width="378" height="264" alt="loss" src="https://github.com/user-attachments/assets/156e3d1c-566a-4c26-8824-3a1a33ad5097" />
 
