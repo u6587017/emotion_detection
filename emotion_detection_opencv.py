@@ -7,13 +7,13 @@ from ffpyplayer.player import MediaPlayer
 emotion_count = {}
 
 # Load the trained model
-model_best = load_model('detect/face_model.h5') # set your machine model file path here
+model_best = load_model('model/face_model.h5') # set your machine model file path here
 
 # Classes 7 emotional states
 class_names = ['Angry', 'Disgusted', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 # Load the pre-trained face cascade
-face_cascade = cv2.CascadeClassifier('detect/haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('model/haarcascade_frontalface_default.xml')
 
 # Open a connection to the webcam (0 is usually the default camera)
 cap = cv2.VideoCapture("trump_test.mp4")
