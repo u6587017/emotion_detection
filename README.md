@@ -17,10 +17,7 @@ epochs=30,
 EarlyStopping (patience=5)
 <br />
 ## Example training data:
-<img width="257" height="264" alt="example_input" src="https://github.com/user-attachments/assets/e0072786-b5be-49a4-9196-53916d51922a" />
-<br />
-<br />
-<img width="257" height="264" alt="example_input2" src="https://github.com/user-attachments/assets/cbe3eac2-0a9c-4e02-9dfc-8a79ea8b2db9" />
+<img width="257" height="264" alt="example_input" src="https://github.com/user-attachments/assets/e0072786-b5be-49a4-9196-53916d51922a" /> <img width="257" height="264" alt="example_input2" src="https://github.com/user-attachments/assets/cbe3eac2-0a9c-4e02-9dfc-8a79ea8b2db9" />
 <br />
 
 
