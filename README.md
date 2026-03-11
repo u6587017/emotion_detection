@@ -20,20 +20,20 @@ loss= categorical_crossentropy , metrics=['accuracy']
 <br />
 
 ## Example training images:
-<img width="257" height="264" alt="example_input" src="https://github.com/user-attachments/assets/e0072786-b5be-49a4-9196-53916d51922a" /> <img width="257" height="264" alt="example_input2" src="https://github.com/user-attachments/assets/cbe3eac2-0a9c-4e02-9dfc-8a79ea8b2db9" />
+<img width="425" height="435" alt="example_input" src="https://github.com/user-attachments/assets/a4468a89-8862-499d-bc05-b834e24b829f" /> <img width="425" height="435" alt="example_input2" src="https://github.com/user-attachments/assets/3ec81662-e43f-48fa-b634-a2bbb4ca3bc9" />
 <br />
 
 
 ### Accuracy:
 Blue: accuracy, Red:val_accuracy
 <br />
-<img width="378" height="264" alt="acc" src="https://github.com/user-attachments/assets/f335d1d2-a230-454c-b225-a292fe157515" />
+<img width="547" height="435" alt="acc" src="https://github.com/user-attachments/assets/4b4aa23e-51cf-4c18-9a3f-366fbfc9d15a" />
 <br />
 
 ### Validation:
 Blue: loss, Red:val_loss
 <br />
-<img width="378" height="264" alt="loss" src="https://github.com/user-attachments/assets/156e3d1c-566a-4c26-8824-3a1a33ad5097" />
+<img width="547" height="435" alt="loss" src="https://github.com/user-attachments/assets/2b5ff131-271f-43b8-9655-d886238c2730" />
 
 ## Trump video test:
 <img width="1073" height="950" alt="Screenshot 2026-03-09 221500" src="https://github.com/user-attachments/assets/f091413e-c42b-4d3e-94fa-fc10653ab35e" />
